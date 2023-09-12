@@ -25,7 +25,6 @@ git clone -b v2.4 https://github.com/camenduru/sd-webui-aspect-ratio-helper /con
 git clone -b v2.4 https://github.com/camenduru/asymmetric-tiling-sd-webui /content/stable-diffusion-webui/extensions/asymmetric-tiling-sd-webui
 cd /content/stable-diffusion-webui
 git reset --hard
-git -C /content/stable-diffusion-webui/repositories/stable-diffusion-stability-ai reset --hard
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/OrangeMixs/resolve/main/AOM3.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o AOM3.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/OrangeMixs/resolve/main/AOM3A1.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o AOM3A1.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/OrangeMixs/resolve/main/AOM3A2.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o AOM3A2.safetensors
